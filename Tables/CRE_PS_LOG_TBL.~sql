@@ -1,0 +1,10 @@
+/*$Id: CRE_PS_LOG_TBL.sql,v 1.3 2013/10/14 07:48:30 olando Exp $*/
+create table ps_log
+(
+   gpms_exp_id  number,
+   date_of_log  date,
+   dev_site     varchar2(6),
+   log_type     varchar2(7),
+   log_file     clob
+)
+/
